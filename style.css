@@ -1,0 +1,168 @@
+@font-face {
+    font-family: Sugo;
+    src: url('font/Sugo.ttf') format('truetype');
+
+    font-family: Idroid;
+    src: url('font/idroid.otf') format('truetype');
+
+
+}
+
+header {
+    color: rgb(252, 243, 243);
+    font-weight: lighter;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(8, 158, 8), rgb(1, 53, 4));
+    margin-left: none;
+    margin-top: 0px;
+    padding-top: 40px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.466);
+    
+
+}
+
+header > h1 {
+    font-family: Idroid, Arial, Helvetica, sans-serif;
+    margin-top: 0%;
+    
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+
+    
+}
+
+header > nav{
+    text-align: left;
+    text-indent: 10px;
+       
+}
+
+nav > a{
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.87);
+    margin-right: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    transition-duration: 0.5s;
+    
+}
+
+header > nav >a:hover{
+    background-color: rgba(50, 175, 98, 0.514);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+body{
+    margin: 0px;
+    background-color: rgba(125, 224, 122, 0.76);
+    
+}
+
+main{
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    box-sizing: 80px 80px 80px 80;
+    min-width: 200px;
+    max-width: 800px;
+}
+
+
+
+    
+
+
+main > h1 {
+    font-family: Idroid, Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        margin: 0px;
+        color: darkgreen;
+    }
+
+main > p {
+    text-indent: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+main > h2 {
+    font-family: Idroid, Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(116, 197, 116), white);
+    font-size: 15px;
+    padding: 5px;
+}
+
+img{
+    width: 100%;
+}
+
+iframe {
+    display: block;
+    max-width: 500px;
+    margin: auto;
+    min-width: 320px;
+    width: 100%;
+}
+
+aside {
+    text-indent: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    
+    
+}
+aside > h2 {
+    background-color: rgb(15, 124, 48);
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+    }
+    
+aside > article {
+
+    background-color: rgba(122, 224, 164, 0.5); 
+    border-radius: 0px 0px 10px 10px;
+    text-decoration: none;
+    margin-top: 0px;
+    padding: 20px;
+    
+}
+
+ol{
+    list-style-position: inherit;
+ columns: 2;
+ 
+}
+
+abbr{
+    text-decoration: none;
+    
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: rgb(4, 85, 40);
+    color: white;
+    font-size: 14px;
+    margin: auto;
+    padding: 5px;
+}
+    
